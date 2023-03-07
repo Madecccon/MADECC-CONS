@@ -1,0 +1,41 @@
+/* Global CSS */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #000;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px
+}
+
+a {
+  text-decoration: none;
+  color: #blue;
+  margin-right: 10px;
+}
+
+main {
+    text-decoration: none;
+    color: #blue;
+}

@@ -1,0 +1,172 @@
+/* global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: center;
+  background-color: blue;  
+  color: pink;  
+}
+
+header {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  position: fixed;
+  top: 0px;	
+  left: 0;
+  width: 100%;
+  height: 100px;  
+  z-index: 99;	
+}
+
+header h2, header h4 {
+  margin: 0;
+}
+
+body h6 {    
+  background-color: red;
+  color: blue;
+  width: 50%;
+  margin: 200px;
+  height: 120px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+body h5 {    
+  background-color: red;
+  color: yellow;
+  width: 50%;
+  height: 200px;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: underline; 
+}
+
+body t5 {    
+  background-color: red;
+  color: yellow;
+  width: 50%;
+  height: 400px;
+  font-size: 25px;
+  text-decoration: underline;
+  cursor: pointer;  
+}
+
+body h7 {    
+  background-color: red;
+  color: red;    
+  font-size: 25px;
+  text-decoration: underline;
+  cursor: pointer;  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #162938;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white; 
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+  color: red;
+}
+
+footer {
+  background-color: #333;
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  color: yellow;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;  
+}
+
+video {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
